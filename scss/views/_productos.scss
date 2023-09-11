@@ -1,0 +1,41 @@
+/* Estilos de los productos */
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 35%);
+    gap: 9rem 7rem;
+    margin: 6rem 3rem 3rem 0.1rem;
+    background-color: rgb(222, 184, 135);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+.contenedor-productos {
+    img {
+        width: 100%;
+        height: auto;
+        margin-left: 4rem;
+        object-fit: cover;
+    }
+}
+
+.titulo-productos {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 4rem;
+}
+
+.descripcion {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 4rem;
+    width: 100%;
+}
+
+.imagen-productos:hover {
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}

@@ -1,0 +1,5 @@
+@mixin estilos-base ($width, $height, $margin-top){
+width: $width;
+height: $height;
+margin-top: $margin-top;
+}

@@ -1,0 +1,33 @@
+/* Estilos de los titulos h1 */
+
+.titulo {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 250%;
+    background-color: rgb(243, 226, 213, 0.774);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.inicio-title {
+    @extend %estilos-uno;
+}
+
+.nosotros-title {
+    @extend %estilos-dos;
+}
+
+.productos-title {
+    @extend %estilos-uno;
+}
+
+.ofertas-title {
+    @extend %estilos-dos;
+}
+
+.contacto-title {
+    margin-right: 10%;
+    margin-left: 10%;
+}

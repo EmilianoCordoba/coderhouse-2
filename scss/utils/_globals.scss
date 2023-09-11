@@ -1,0 +1,28 @@
+/* Estilo general de la página */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+
+body {
+    background-color: burlywood !important; 
+    background-image: url(../imagenes/Panes.jpg);
+    background-size: contain;
+}
+
+
+/* Estilos de direccion */
+
+.direccion {
+    background-color: burlywood;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.4rem;
+    border-radius: 10px;
+}
+
